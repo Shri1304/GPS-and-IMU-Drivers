@@ -1,0 +1,8 @@
+prefix=/home/shri1304/catkin_ws/devel
+
+Name: Assignment_2
+Description: Description of Assignment_2
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/shri1304/catkin_ws/devel/lib 
+Requires: 
