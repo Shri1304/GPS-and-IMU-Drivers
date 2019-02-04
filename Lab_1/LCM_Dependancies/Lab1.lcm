@@ -1,0 +1,14 @@
+package Lab1lcm;
+
+struct Lab1
+{
+    int64_t  timestamp;
+    float  latitude;
+    float  longitude; 
+    float  altitude;
+    float  utm_x;
+    float  utm_y;
+    int8_t  zone_number;
+    string  zone_letter;
+    boolean  enabled;
+}
