@@ -21,9 +21,10 @@
         rate = rospy.Rate(10.0)
         while not rospy.is_shutdown():
             try:
-                (trans,rot) = listener.lookupTransform('/turtle2', '/turtle1', rospy.Time(0))
-            except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
-                continue
+                 now = rospy.Time.now()
+                (trans,rot) = listener.lookupTransform("/turtle2", "/carrot1", now)
+            except (tf.LookupException, tf.ConnectivityException):              
+            continue
     
             angular = 4 * math.atan2(trans[1], trans[0])
             linear = 0.5 * math.sqrt(trans[0] ** 2 + trans[1] ** 2)
