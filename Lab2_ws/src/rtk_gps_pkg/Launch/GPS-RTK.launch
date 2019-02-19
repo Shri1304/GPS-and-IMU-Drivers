@@ -1,0 +1,10 @@
+<launch> 
+      <arg name="port_name" default="/dev/ttyACM0"/>   
+    <arg name="baud_rate" default="115200" />       
+<node pkg="rtk_gps_pkg" type="rtk_gps_node" name="Driver(without UTM)">     
+      <param name="port_name" value="$(arg port_name)"/>       
+     <param name="baud_rate" value="$(arg baud_rate)"/>    
+   </node>        
+ <node pkg="rtk_gps_pkg" type="UTM_conversion" name="Driver(with UTM).py" >   
+    </node>  
+ </launch>
