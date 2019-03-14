@@ -1,0 +1,3 @@
+Readme 
+
+Here, inside the IMU driver, the data has been recorded using lcm logger, but the rec function has been used to record the data for stationary position. The stationary data is inside the IMU folder.
