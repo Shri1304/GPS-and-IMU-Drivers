@@ -1,0 +1,13 @@
+package exlcm;
+
+struct GPS_readings
+{
+    int64_t  timestamp;
+    double   latitude;
+    double   longitude;
+    double   altitude;
+    double   easting;
+    double   northing;
+    int32_t  zone;
+    string   letter;
+}

@@ -1,0 +1,10 @@
+package Lab1
+
+struct
+{
+float timestamp;
+float longitude;
+float latitude;
+float altitude;
+bool enabled;
+}
