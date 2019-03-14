@@ -12,3 +12,9 @@ Tutorials on package creation.
 
 **Assignment 3** Need to be submitted by February 14th.
 ROSPY Tutorials on turtle examples
+
+**Lab2**
+GPS Emilid 
+
+**Lab3**
+VN-100 IMU sensor ROS driver using LCM
